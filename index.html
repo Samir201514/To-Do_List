@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> To Do List </title>
+    <style>
+        div{
+            position: absolute;
+            left: 500px;
+
+            padding: 20px;
+            border: 2px solid black;
+            margin: 20px;
+        }
+
+        input[type="button"]{
+            background-color: rgb(85, 241, 85);
+        }
+
+        ol{
+            list-style: none;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;"> My List </h1>
+        <input type="text" id="text" placeholder="Write Something...">
+        <input type="button" id="btn" value="Add">
+
+        <ol id="list">
+
+        </ol>
+    </div>
+</body>
+</html>
